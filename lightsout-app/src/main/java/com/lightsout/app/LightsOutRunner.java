@@ -1,11 +1,14 @@
 package com.lightsout.app;
 
-import com.bluerock.lightsout.domain.PuzzleType;
-import com.bluerock.lightsout.domain.PuzzleFactory;
-import com.bluerock.lightsout.domain.integerimpl.Puzzle;
-import com.bluerock.lightsout.io.FileReader;
-import com.bluerock.lightsout.io.OutputWriter;
-import com.bluerock.lightsout.solver.*;
+import com.lightsout.domain.PuzzleType;
+import com.lightsout.domain.PuzzleFactory;
+import com.lightsout.domain.integerimpl.Puzzle;
+import com.lightsout.io.FileReader;
+import com.lightsout.io.OutputWriter;
+import com.lightsout.solver.Checker;
+import com.lightsout.solver.LogicFactory;
+import com.lightsout.solver.Solver;
+import com.lightsout.solver.UnableToFindSolutionException;
 
 import java.io.IOException;
 import java.util.List;
